@@ -1,121 +1,63 @@
 @import url('https://fonts.googleapis.com/css2?family=Dosis:wght@500&family=Yeseva+One&display=swap');
 
-body{
+*{
     margin: 0%;
     padding: 0%;
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    border: 1px solid black;
+}
+p{
+    margin: 0px;
+}
+body{
     font-family: 'Dosis', sans-serif;
     font-size: 20px;
-    justify-content: center;
-    align-items: center;
     color: #24345a;
 }
 
-.content{
+.menu ul{
     display: flex;
-    justify-content: space-between;
-    border: 1px solid black;
+    float: right;
 }
 
 /* ------- cabeçalho ------ */
 
 header{
     background-color: #4242438a;
-    width: 100%;
     height: 80px;
-    justify-content: center;
-    align-items: center;
 }
 
-.menu{
-    margin-right: 15px;
-}
 
 nav ul li{
     margin: 10px;
     list-style: none;
 }
-
-/* ---- logo ---- */
-
-.logo{
-    width: 60px;
-    /* background-color: #00b847e9; */
-    padding: 15px;
-    height: 50px;
-    margin-left: 15px;
-    border-radius: 40%;
-}
-.div1, .div2{
-    background-color: rgba(0, 0, 0, 0.633);
-    width: 20px;
-    height: 20px;
-    position: relative;
-    top: -7px;
-}
-.div2{
-    position: relative;
-    right: -40px;
-    top: -27px;
-}
-.hi1{
-    background-color: rgba(0, 0, 0, 0.633);
-    width: 20px;
-    height: 30px;
-}
-.div3{
-    position: relative;
-    right: -20px;
-    top: -20px;
-}
-.div4{
-    position: relative;
-    right: -40px;
-    top: -40px;
-}
-.div5{
-    position: relative;
-    top: -70px;
-}
-
 /* ------ home ------ */
 
 #corpo{
     background-color: #6b61a93f;
-    width: 70%;
-    padding: 15px;
-    flex-direction: column;
     align-items: center;
 }
 /* ------- sobre mim ------- */
 .sec1, .sec2{
-    padding: 5px;
+    padding: 30px;
     text-align: center;
-    flex-direction: column;
-    margin-top: 0%;
-    margin-bottom: 15px;
-    max-width: 95%;
 }
 
 /* ------- projetos ------- */
 
 .proj{
+    display: flex;
     justify-content: center;
-    flex-direction: row;
     flex-wrap: wrap;
 }
 
 .sec2 figure .img{
     width: 150px;
     height: 150px;
-    background: url(./imagens/Imagem\ do\ WhatsApp\ de\ 2022-10-31\ à\(s\)\ 14.48.04.jpg) no-repeat;
+    background: url(../imagens/Imagem\ do\ WhatsApp\ de\ 2022-10-31\ à\(s\)\ 14.48.04.jpg) no-repeat;
     background-position: center;
     background-size: 190px 190px;
     border-radius: 50%;
-    transition: 1s;
+    transition: .8s;
     transform:translateY(0) scale(0.9);
 }
 
@@ -127,10 +69,8 @@ nav ul li{
 /* ------- contato ------- */
 
 .contato{
-    width: 95%;
+    display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
     text-align: center;
 }
 fieldset{
@@ -152,7 +92,5 @@ input, textarea{
 
 .rodape{
     background-color: #4242438a;
-    width:100%;
-    justify-content: center;
-    align-items: center;
+    text-align: center;
 }

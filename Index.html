@@ -9,30 +9,26 @@
     <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
-    <header class="content container">
-        <div class="logo">
-            <div class="div1"></div>
-            <div class="div2"></div>
-            <div class="div3 hi1"></div>
-            <div class="div4 hi1"></div>
-            <div class="div5 hi1"></div>
+    <header class="container-fluid">
+        <div class="container">
+            <nav class="menu">
+                <ul>
+                    <li>Home</li>
+                    <li>Projetos</li>
+                    <li>Comtato</li>
+                </ul>
+            </nav>
         </div>
-        <nav class="menu content">
-            <ul class="content">
-                <li>Home</li>
-                <li>Projetos</li>
-                <li>Comtato</li>
-            </ul>
-        </nav>
     </header>
-    <main id="corpo" class="content">
-        <section class="sec1 content">
+
+    <main id="corpo" class="container   ">
+        <section class="sec1">
             <h1 class="titulo">Sobre Mim</h1>
             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Possimus, reiciendis voluptas? Et laboriosam molestias blanditiis aliquam atque odio illo corporis nulla, quam delectus. Deserunt, quos nam illum repudiandae error veniam.</p>
         </section>
-        <section class="sec2 content">
+        <section class="sec2">
             <h1>Projetos</h1>
-            <figure class="proj content">
+            <figure class="proj">
                 <div>
                     <div class="img"></div>
                     <figcaption>Landin Page1</figcaption>
@@ -47,7 +43,9 @@
                 </div>
             </figure>
         </section>
-        <section class="contato content">
+
+
+        <section class="contato container">
             <h1>Contato</h1>
             <fieldset class="form">
                 <form action="" method="post" class="contato">
@@ -66,9 +64,12 @@
                 </form>
             </fieldset>
         </section>
+
     </main>
-    <footer class="rodape content">
-        <p> Copyright&copy 2022 Kauã Vinicios. Todos os direitos reservados</p>
+    <footer class="rodape container-fluid">
+        <div class="container">
+            <p> Copyright&copy 2022 Kauã Vinicios. Todos os direitos reservados</p>
+        </div>
     </footer>
 </body>
 </html>
