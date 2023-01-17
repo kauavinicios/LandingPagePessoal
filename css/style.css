@@ -1,1 +1,95 @@
-@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@500&family=Yeseva+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@300&family=Yeseva+One&display=swap');
+:root{
+    --color-bg: #0D0D0D;
+}
+
+body{
+    font-family: Yeseva One, Arial, Helvetica, sans-serif;
+    /* color: #3D6AF2; */
+    color: #1F2F8C;
+    overflow-x: hidden;
+    margin: auto;
+}
+
+.destaque{
+    color: #3D6AF2;
+}
+
+.font_titulo{
+    font-size: 30px;
+}
+
+.cabecalho{
+    position: fixed;
+    width: 100%;
+    display: flex;
+    font-size: 23px;
+    justify-content: space-evenly;
+    padding: 0.8rem 0;
+    background-color: var(--color-bg);
+}
+
+.cabecalho__menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 85%;
+}
+
+.cabecalho__list li{
+    display: inline-block;
+    margin-left: 12px;
+    font-size: 23px;
+}
+main{
+    padding-top: 5rem;
+    max-width: 200rem;
+}
+
+.home{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 2rem;
+    background-color: var(--color-bg);
+}
+.home__imag img{
+    border-radius: 10%;
+    box-shadow: 1px 1px 10px #3D6AF2;
+    height: 30rem;
+}
+.home__info em{
+    font-size: 50px;
+}
+
+.caixa_vazia{
+    position: absolute;
+    width: 0; 
+    height: 0; 
+
+}
+
+.borda_sup{
+    border-left: 73.33vmax solid transparent;
+    border-right: 80vmax solid transparent;
+    border-top: 10rem solid var(--color-bg);
+}
+
+.sobre{
+    color: #3D6AF2;
+    height: 30rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.sobre p{
+    max-width: 500px;
+}
+
+.borda_inf{
+    border-left: 73.33vmax solid transparent;
+    border-right: 80vmax solid transparent;
+    border-bottom: 10rem solid var(--color-bg);
+}

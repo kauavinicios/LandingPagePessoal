@@ -4,68 +4,44 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title></title>
-    <link rel="stylesheet" href="./css/bootstrap.css">
+    <title>Portifolio_home</title>
+    <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="shortcut icon" href="in.svg" type="svg">
 </head>
 <body>
-    <header>
-        <div>
-            <nav>
-                <ul>
-                    <li>Home</li>
-                    <li>Projetos</li>
-                    <li>Comtato</li>
-                </ul>
-            </nav>
-        </div>
+    <header class="cabecalho">
+        <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" fill="currentColor" class="bi bi-person-circle" viewBox="0 0 16 16">
+            <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"/>
+            <path fill-rule="evenodd" d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z"/>
+        </svg>
+        <nav class="cabecalho__menu">
+            <ul class="cabecalho__list">
+                <li>Home</li>
+                <li>Sobre</li>
+                <li>Serviços</li>
+            </ul>
+            <button>Contato</button>
+        </nav>
     </header>
     <main>
-        <section>
-            <h1>Sobre Mim</h1>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Possimus, reiciendis voluptas? Et laboriosam molestias blanditiis aliquam atque odio illo corporis nulla, quam delectus. Deserunt, quos nam illum repudiandae error veniam.</p>
+        <section class="home">
+            <picture class="home__imag">
+                <img src="./imagens/Imagem do WhatsApp.jpg" alt="foto de perfil">
+            </picture>
+            <section class="home__info">
+                <h1 class="destaque font_titulo">Kauã Vinicios</h1>
+                <p><em>Eu sou um <br><span class="destaque">Desenvolvedor Web</span></em></p>
+                <p>eum magnam veritatis repudiandae adipisci?</p>
+                <button>Dawload cv</button>
+            </section>
         </section>
-        <section>
-            <h1>Projetos</h1>
-            <figure >
-                <div>
-                    <div ></div>
-                    <figcaption>Landin Page1</figcaption>
-                </div>
-                <div>
-                    <div ></div>
-                    <figcaption>Landin Ppoiage2</figcaption>
-                </div>
-                <div>
-                    <div ></div>
-                    <figcaption>Landin Ppoiage3</figcaption>
-                </div>
-            </figure>
+        <div class="caixa_vazia borda_sup"></div>
+        <section class="sobre">
+            <h2 class="font_titulo">Sobre mim</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore ab architecto perferendis officiis possimus ipsam quia, porro corrupti sunt, quos maiores! Dicta fugiat animi quidem aspernatur obcaecati autem non pariatur?</p>
         </section>
-        <section >
-            <h1>Contato</h1>
-            <fieldset >
-                <form action="" method="" >
-                    <div>
-                        <label for="nnome">Nome</label><br>
-                        <input type="text" name="nome" id="nnome" >
-                    </div>
-                    <div>
-                        <label for="eemail">E-mail</label><br>
-                        <input type="email" name="email" id="eemail">
-                    </div>
-                    <div>
-                        <label for="mmensagen">Mensagen</label><br>
-                        <textarea name="mensagen" id="mmensagen" cols="39" rows="6"></textarea>
-                    </div>
-                </form>
-            </fieldset>
-        </section>
+        <div class="caixa_vazia borda_inf"></div>
     </main>
-    <footer >
-        <div >
-            <p> Copyright&copy 2022 Kauã Vinicios. Todos os direitos reservados</p>
-        </div>
-    </footer>
 </body>
 </html>
